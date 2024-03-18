@@ -1,5 +1,5 @@
 PODS:
-  - DPTabBar (0.1.0)
+  - DPTabBar (1.0.0)
 
 DEPENDENCIES:
   - DPTabBar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DPTabBar: f33e05538f5fda83e3ee02484a7a8a921c14c54a
+  DPTabBar: 28b99421f5f6e3ccfa3b21e8ac7e1d3953f038c7
 
 PODFILE CHECKSUM: 9f80e2552ebacb1f74513dd55a7ee94e341bf75e
 
