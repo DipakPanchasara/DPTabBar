@@ -1,0 +1,16 @@
+PODS:
+  - DPTabBar (0.1.0)
+
+DEPENDENCIES:
+  - DPTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  DPTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DPTabBar: f33e05538f5fda83e3ee02484a7a8a921c14c54a
+
+PODFILE CHECKSUM: 9f80e2552ebacb1f74513dd55a7ee94e341bf75e
+
+COCOAPODS: 1.12.1

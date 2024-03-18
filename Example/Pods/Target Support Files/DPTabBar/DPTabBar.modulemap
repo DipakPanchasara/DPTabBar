@@ -1,0 +1,6 @@
+framework module DPTabBar {
+  umbrella header "DPTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

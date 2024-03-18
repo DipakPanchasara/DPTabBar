@@ -1,0 +1,22 @@
+{
+  "name": "DPTabBar",
+  "version": "0.1.0",
+  "summary": "Custom Tab Bar for iOS App",
+  "description": "TODO: Custom Bottom Tab bar",
+  "homepage": "https://github.com/Dipak Panchasara/DPTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dipak Panchasara": "p"
+  },
+  "source": {
+    "git": "https://github.com/Dipak Panchasara/DPTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "DPTabBar/Classes/**/*"
+}
