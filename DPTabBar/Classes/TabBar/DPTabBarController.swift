@@ -85,16 +85,16 @@ extension DPTabBarController: DPTabBarDelegate {
     }
     
     func removeVC(vc: UIViewController) {
-        vc.willMove(toParentViewController: nil)
+        vc.willMove(toParent: nil)
         vc.view.removeFromSuperview()
-        vc.removeFromParentViewController()
+        vc.removeFromParent()
     }
     
     func addVC(vc: UIViewController) {
         delegate?.tabBarController(self, didSelect: vc)
-        addChildViewController(vc)
+        addChild(vc)
         vc.view.frame = containerView.bounds
         containerView.addSubview(vc.view)
-        vc.didMove(toParentViewController: self)
+        vc.didMove(toParent: self)
     }
 }
