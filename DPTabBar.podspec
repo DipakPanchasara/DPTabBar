@@ -20,4 +20,5 @@ TODO: Custom TabBar,Flowting TabBar, Upper Corner TabBar, Bottom Corner TabBar
   s.source   = { :git => 'https://github.com/DipakPanchasara/DPTabBar.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.source_files = 'DPTabBar/Classes/**/*'
+  s.swift_versions = '5.0'
 end

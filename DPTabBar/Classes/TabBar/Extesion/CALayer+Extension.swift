@@ -14,7 +14,7 @@ public extension CALayer {
         caframeAnimation.toValue = endX
         caframeAnimation.damping = total/50 + 5
         caframeAnimation.duration = caframeAnimation.settlingDuration
-        caframeAnimation.fillMode = kCAFillModeBoth
+        caframeAnimation.fillMode = CAMediaTimingFillMode.both
         caframeAnimation.isRemovedOnCompletion = false
         self.add(caframeAnimation, forKey: "circleLayerAnimationKey")
     }
@@ -25,7 +25,7 @@ public extension CALayer {
         animation.values = [startX, total>0 ? startX + 40 : startX - 40, endX]
         animation.keyTimes = [0,0.4,1]
         animation.isRemovedOnCompletion = false
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = CAMediaTimingFillMode.forwards
         animation.duration = 0.5
         self.add(animation, forKey: "Reposition")
         
@@ -40,7 +40,7 @@ public extension CALayer {
         boundsOvershootAnimation.keyTimes = [0.0, 0.4, 1.0].map { NSNumber(value: $0) }
         boundsOvershootAnimation.duration = 0.5
         boundsOvershootAnimation.isRemovedOnCompletion = false
-        boundsOvershootAnimation.fillMode = kCAFillModeForwards
+        boundsOvershootAnimation.fillMode = CAMediaTimingFillMode.forwards
         
         self.add(boundsOvershootAnimation, forKey: "scale")
     }
@@ -61,7 +61,7 @@ public extension CALayer {
         let bubbleGroupAnim = CAAnimationGroup()
         bubbleGroupAnim.animations = [bubbleTransformAnim, bubblePositionAnim]
         bubbleGroupAnim.isRemovedOnCompletion = false
-        bubbleGroupAnim.fillMode = kCAFillModeForwards
+        bubbleGroupAnim.fillMode = CAMediaTimingFillMode.forwards
         bubbleGroupAnim.duration = 0.8
         self.add(bubbleGroupAnim, forKey: nil)
     }
